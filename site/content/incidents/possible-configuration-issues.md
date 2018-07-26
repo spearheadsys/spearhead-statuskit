@@ -5,9 +5,11 @@ severity = "partial-outage"
 affectedsystems = [
   "Spearhead Cloud CLI Tools"
 ]
-resolved = false
+resolved = true
 +++
 Unable to remove volumes using spearhead cli.
+
+**Update**: The issue has been fixed upstream in version 6.1.2 and merged into node-spearhead. We have not been able to reproduce this issue. {{< track "2018-07-026T12:45:00.000Z" >}}
 
 **Update**: The issue is limited to spearhead volume rm command. Using spearhead-docker volume rm works as intented. This will be tracked upstream shortly.
 
